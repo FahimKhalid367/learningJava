@@ -25,5 +25,12 @@ public class Main {
 
         //output
         System.out.println("Largest number in sequence is " + largest);
+
+        //one more casting check
+        double age = 25.5;
+
+        int number = (int) age;
+
+        System.out.println(number);
     }
 }
