@@ -1,14 +1,29 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
+
+
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.println("Hello and welcome!");
 
-        for (int i = 1; i <= 5; i++) {
+        //This is a check to see how git push and commits work
 
-            System.out.println("i = " + i);
+        //lets do a quick largest number check using an array
+
+        //create array
+        int arr[] = {1,2,3,4,5,6,7,8,9};
+
+        //have a reference point for the largest at the moment
+        int largest = arr[1];
+
+        //for loop to check the largest
+        for (int i = 0; i < arr.length; i++){
+            if (arr[i] > largest) {
+                largest = arr[i];
+            }
         }
+
+
+        //output
+        System.out.println("Largest number in sequence is " + largest);
     }
 }
