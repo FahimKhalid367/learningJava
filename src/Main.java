@@ -32,5 +32,24 @@ public class Main {
         int number = (int) age;
 
         System.out.println(number);
+
+        //cast int to String
+        int score = 46;
+
+        String sScore = String.valueOf(score);
+
+        System.out.println(sScore);
+
+        //Another
+        float check = 24.5f;
+
+        int checkInt = (int) check;
+        System.out.println(checkInt);
+
+        //call tax calculator to main.java
+        taxCalculator taxCalculatorObj = new taxCalculator();
+
+        taxCalculatorObj.calculation();
+
     }
 }
