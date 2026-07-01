@@ -102,6 +102,22 @@ public class Main {
         userProfileSb profile = new userProfileSb();
         profile.userInfo();
 
+        //text block exercise
+        String text = """
+                My name is Fahim Khalid,
+                I am experimenting with text blocks for the first time!
+                    Let me play around
+                        with the    
+                            formatting
+                """;
+
+        System.out.println(text);
+
+        //BigDecimal
+        bigDecimal bankAcc = new bigDecimal();
+        bankAcc.addMoney();
+
+
 
     }
 }
