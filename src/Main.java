@@ -99,6 +99,9 @@ public class Main {
 
         System.out.println(sb);
 
+        userProfileSb profile = new userProfileSb();
+        profile.userInfo();
+
 
     }
 }
