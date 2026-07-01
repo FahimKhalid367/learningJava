@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -73,6 +75,30 @@ public class Main {
         String result = age > 17 ? "Adult" : "Kid";
 
         System.out.println(result);
+
+        String name = "Fahim";
+        System.out.println(name.toUpperCase() + name.length());
+
+        //scanner for user input
+        Scanner inputName1 = new Scanner(System.in);
+        System.out.println("Enter first name");
+
+        String firstName = inputName1.nextLine();
+
+
+        //sb to append strings
+        StringBuilder sb = new StringBuilder();
+        sb.append(firstName);
+
+        Scanner inputName2 = new Scanner(System.in);
+        System.out.println("Enter second name please");
+        String surname = inputName2.nextLine();
+        sb.append(surname);
+
+
+
+        System.out.println(sb);
+
 
     }
 }
