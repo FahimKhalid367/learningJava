@@ -80,20 +80,20 @@ public class Main {
         System.out.println(name.toUpperCase() + name.length());
 
         //scanner for user input
-        Scanner inputName1 = new Scanner(System.in);
+        Scanner inputName = new Scanner(System.in);
         System.out.println("Enter first name");
 
-        String firstName = inputName1.nextLine();
+        String firstName = inputName.nextLine();
 
 
         //sb to append strings
         StringBuilder sb = new StringBuilder();
-        sb.append(firstName);
 
-        Scanner inputName2 = new Scanner(System.in);
+
+
         System.out.println("Enter second name please");
-        String surname = inputName2.nextLine();
-        sb.append(surname);
+        String surname = inputName.nextLine();
+        sb.append(firstName).append(" ").append(surname);
 
 
 
