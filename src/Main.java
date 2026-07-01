@@ -117,6 +117,9 @@ public class Main {
         bigDecimal bankAcc = new bigDecimal();
         bankAcc.addMoney();
 
+        methodChaining mce = new methodChaining();
+        mce.MC();
+
 
 
     }
