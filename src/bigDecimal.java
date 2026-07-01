@@ -1,4 +1,5 @@
 import java.math.BigDecimal;
+import java.time.LocalDateTime;
 
 public class bigDecimal {
 
@@ -14,7 +15,7 @@ public class bigDecimal {
         //new balance
         BigDecimal newBalance = balance.add(deposit);
 
-        System.out.println(newBalance);
+        System.out.println(newBalance + " Deposit completed at " + LocalDateTime.now());
 
     }
 
