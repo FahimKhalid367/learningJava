@@ -1,3 +1,4 @@
+import java.math.BigDecimal;
 import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -122,17 +123,29 @@ public class Main {
 
 
 
-        TeamLead fahim = new TeamLead();
+//        TeamLead fahim = new TeamLead();
+//
+//        fahim.name = "Fahim";
+//        fahim.age = 25;
+//
+//        fahim.introduce();
+//
+//        TeamLead freddie = new TeamLead();
+//        freddie.name = "Freddie";
+//        freddie.age = 24;
+//        freddie.introduce();
+//
+//        freddie.bark();
 
-        fahim.name = "Fahim";
-        fahim.age = 25;
+//        fahim.bark();
 
-        fahim.introduce();
+        Employee employee = new Employee();
+        employee.name = "Fahim";
+        employee.age = 25;
+        employee.jobTitle = "Software Engineer";
+        employee.salary = new BigDecimal("120000");
 
-        TeamLead freddie = new TeamLead();
-        freddie.name = "Freddie";
-        freddie.age = 24;
-        freddie.introduce();
+        employee.introduce();
 
 
 

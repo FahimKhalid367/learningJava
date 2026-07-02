@@ -9,6 +9,11 @@ public class TeamLead {
         System.out.println(
                 "Hello, my name is " + name + ", I am " + age + " years old"
         );
+
+    }
+
+    void bark(){
+        System.out.println(name + " says Woof");
     }
 
 }
