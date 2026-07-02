@@ -17,4 +17,21 @@ public class Employee {
         );
     }
 
+
+    void birthday(){
+        System.out.println(
+                "Happy " + (age + 1) + "th Birthday!"
+        );
+    }
+
+    void payRise(BigDecimal increase){
+
+        salary = salary.add(increase);
+
+        System.out.println(
+                "You've gotten a pay rise of £" + increase +
+                        ", your new salary is £" + salary
+        );
+    }
+
 }

@@ -139,6 +139,8 @@ public class Main {
 
 //        fahim.bark();
 
+
+        //big decimal exercises with classes and methods
         Employee employee = new Employee();
         employee.name = "Fahim";
         employee.age = 25;
@@ -147,6 +149,9 @@ public class Main {
 
         employee.introduce();
 
+        employee.birthday();
+
+        employee.payRise(new BigDecimal("50000"));
 
 
 
