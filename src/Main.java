@@ -140,17 +140,23 @@ public class Main {
 //        fahim.bark();
 
 
-        //big decimal exercises with classes and methods
-        Employee employee = new Employee();
-        employee.name = "Fahim";
-        employee.age = 25;
-        employee.jobTitle = "Software Engineer";
-        employee.salary = new BigDecimal("120000");
+//        //big decimal exercises with classes and methods
+//        Employee employee = new Employee();
+//        employee.name = "Fahim";
+//        employee.age = 25;
+//        employee.jobTitle = "Software Engineer";
+//        employee.salary = new BigDecimal("120000");
+//
+//        employee.introduce();
+//
+//        employee.birthday();
+//
+//        employee.payRise(new BigDecimal("50000"));
 
-        employee.introduce();
+        //add data using constructors
+        Employee employee = new Employee("Fahim",25, new BigDecimal("50000"));
 
         employee.birthday();
-
         employee.payRise(new BigDecimal("50000"));
 
 
