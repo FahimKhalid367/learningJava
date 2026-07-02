@@ -49,76 +49,91 @@ public class Main {
 //        System.out.println(checkInt);
 
         //call tax calculator to main.java
-        taxCalculator taxCalculatorObj = new taxCalculator();
+//        taxCalculator taxCalculatorObj = new taxCalculator();
+//
+//        taxCalculatorObj.calculation();
+//
+//
+//        //Switch exercises
+//        int day = 2;
+//
+//        switch(day){
+//            case 1:
+//                System.out.println("Monday");
+//                break;
+//            case 2:
+//                System.out.println("Tuesday");
+//                break;
+//
+//            default:
+//                System.out.println("Invalid entry");
+//        }
+//
+//        //ternary operator check
+//        int age = 20;
+//
+//        String result = age > 17 ? "Adult" : "Kid";
+//
+//        System.out.println(result);
+//
+//        String name = "Fahim";
+//        System.out.println(name.toUpperCase() + name.length());
+//
+//        //scanner for user input
+//        Scanner inputName = new Scanner(System.in);
+//        System.out.println("Enter first name");
+//
+//        String firstName = inputName.nextLine();
+//
+//
+//        //sb to append strings
+//        StringBuilder sb = new StringBuilder();
+//
+//
+//
+//        System.out.println("Enter second name please");
+//        String surname = inputName.nextLine();
+//        sb.append(firstName).append(" ").append(surname);
+//
+//
+//
+//        System.out.println(sb);
+//
+//        userProfileSb profile = new userProfileSb();
+//        profile.userInfo();
+//
+//        //text block exercise
+//        String text = """
+//                My name is Fahim Khalid,
+//                I am experimenting with text blocks for the first time!
+//                    Let me play around
+//                        with the
+//                            formatting
+//                """;
+//
+//        System.out.println(text);
+//
+//        //BigDecimal
+//        bigDecimal bankAcc = new bigDecimal();
+//        bankAcc.addMoney();
+//
+//        methodChaining mce = new methodChaining();
+//        mce.MC();
 
-        taxCalculatorObj.calculation();
 
 
-        //Switch exercises
-        int day = 2;
+        TeamLead fahim = new TeamLead();
 
-        switch(day){
-            case 1:
-                System.out.println("Monday");
-                break;
-            case 2:
-                System.out.println("Tuesday");
-                break;
+        fahim.name = "Fahim";
+        fahim.age = 25;
 
-            default:
-                System.out.println("Invalid entry");
-        }
+        fahim.introduce();
 
-        //ternary operator check
-        int age = 20;
+        TeamLead freddie = new TeamLead();
+        freddie.name = "Freddie";
+        freddie.age = 24;
+        freddie.introduce();
 
-        String result = age > 17 ? "Adult" : "Kid";
-
-        System.out.println(result);
-
-        String name = "Fahim";
-        System.out.println(name.toUpperCase() + name.length());
-
-        //scanner for user input
-        Scanner inputName = new Scanner(System.in);
-        System.out.println("Enter first name");
-
-        String firstName = inputName.nextLine();
-
-
-        //sb to append strings
-        StringBuilder sb = new StringBuilder();
-
-
-
-        System.out.println("Enter second name please");
-        String surname = inputName.nextLine();
-        sb.append(firstName).append(" ").append(surname);
-
-
-
-        System.out.println(sb);
-
-        userProfileSb profile = new userProfileSb();
-        profile.userInfo();
-
-        //text block exercise
-        String text = """
-                My name is Fahim Khalid,
-                I am experimenting with text blocks for the first time!
-                    Let me play around
-                        with the    
-                            formatting
-                """;
-
-        System.out.println(text);
-
-        //BigDecimal
-        bigDecimal bankAcc = new bigDecimal();
-        bankAcc.addMoney();
-
-        methodChaining mce = new methodChaining();
-        mce.MC();
 
 
 
